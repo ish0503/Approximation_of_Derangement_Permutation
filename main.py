@@ -36,5 +36,5 @@ for i in range(1, 500):
 plt.xlabel('attempts')
 plt.ylabel('rate')
 plt.yticks(np.arange(0,1,0.1))
-plt.title('Culculation of Derangement Permutation, Shuffle: ' + str(num) + " About " + str(round(rate*math.factorial(num), 3)))
+plt.title('Approximation of Derangement Permutation, Shuffle: ' + str(num) + " About " + str(round(rate*math.factorial(num), 3)))
 plt.show()
